@@ -6,6 +6,8 @@ import DashboardLayout from "./Layouts/DashboardLayout";
 import Public from "./Views/Public";
 import Login from "./Views/Login";
 import Welcome from "./Views/Welcome";
+import Notes from "./Views/Notes";
+import Users from "./Views/Users";
 function App() {
   return (
       <Routes>
@@ -14,6 +16,12 @@ function App() {
             <Route path="login" element={<Login/>}/>
             <Route path="dashboard" element={<DashboardLayout/>}>
                 <Route index element={<Welcome/>}></Route>
+                <Route path="notes" >
+                    <Route index element={<Notes/>}></Route>
+                </Route>
+                <Route path="users" >
+                    <Route index element={<Users/>}></Route>
+                </Route>
             </Route>
         </Route>
       </Routes>
