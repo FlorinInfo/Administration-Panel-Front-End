@@ -3,8 +3,8 @@ import './App.css';
 import {Routes, Route} from "react-router-dom";
 import MainLayout from "./Layouts/MainLayout";
 import DashboardLayout from "./Layouts/DashboardLayout";
-import Public from "./components/Public";
-import Login from "./components/Login";
+import Public from "./Views/Public";
+import Login from "./Views/Login";
 function App() {
   return (
       <Routes>
