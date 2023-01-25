@@ -1,4 +1,6 @@
-const Notes = ()=> {
+import {FunctionComponent} from "react";
+
+const Notes:FunctionComponent = ()=> {
     return (
         <>
         <h1>Notes</h1>

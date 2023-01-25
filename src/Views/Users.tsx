@@ -1,4 +1,6 @@
-const Users = ()=> {
+import {FunctionComponent}  from "react";
+
+const Users:FunctionComponent = ()=> {
     return (
         <>
         <h1>Users</h1>

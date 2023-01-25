@@ -1,7 +1,8 @@
 import { Link } from 'react-router-dom'
+import {FunctionComponent, ReactNode} from "react";
 
-const Public = () => {
-    const content = (
+const Public:FunctionComponent = () => {
+    const content:ReactNode = (
         <section className="public">
             <header>
                 <h1>Welcome to <span className="nowrap">Dan D. Repairs!</span></h1>

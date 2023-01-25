@@ -1,8 +1,9 @@
 import { Link } from 'react-router-dom'
+import {FunctionComponent, ReactNode} from "react";
 
-const DashboardHeader = () => {
+const DashboardHeader:FunctionComponent = () => {
 
-    const content = (
+    const content:ReactNode = (
         <header className="dash-header">
             <div className="dash-header__container">
                 <Link to="/dash">
